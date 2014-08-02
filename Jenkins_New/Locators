@@ -1,0 +1,28 @@
+ApplicationUrl=http://192.168.11.41:86/index.aspx
+UserId=atm
+Password=1
+
+
+
+
+
+
+
+                                                      Locators
+Username=Login1_UserName
+PasswordTextBox=Login1_Password
+LoginButton=Login1_LoginButton
+SourceLink=Source
+AddNewSource=MYcontent_hp_newsource 
+SourceCode=MYcontent_txtcode                   
+SourceName=MYcontent_txtSourcename
+SubmitButton=MYcontent_StepNextButton
+
+
+
+
+
+                                                       TestData
+                                                       
+SourceCodeData=DemoForJiraAndZephyr
+SourceNameData=DFJZ                                                                               

@@ -1,0 +1,4 @@
+cDiscountITName=&lid=M:6
+cDiscountShopByBrandName=&lid=L:20908
+cDiscountAddtocartXPATH=.//*[@id='lpTBk']/div[1]/div[2]/div[2]/form/input[8] 
+viewcart=//*[@id='raContent']/div[1]/div/a[1]

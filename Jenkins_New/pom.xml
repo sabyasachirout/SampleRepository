@@ -1,0 +1,163 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>Jenkins_New</groupId>
+  <artifactId>Jenkins_New</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <build>
+    <sourceDirectory>src</sourceDirectory>
+    <resources>
+      <resource>
+        <directory>src</directory>
+        <excludes>
+          <exclude>**/*.java</exclude>
+        </excludes>
+      </resource>
+    </resources>
+    <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.1</version>
+        <configuration>
+          <source>1.7</source>
+          <target>1.7</target>
+        </configuration>
+      </plugin>
+      
+      <plugin>  
+   <groupId>org.codehaus.mojo</groupId>  
+   <artifactId>exec-maven-plugin</artifactId>  
+   <version>1.1.1</version>  
+   <executions>  
+    <execution>  
+     <phase>test</phase>  
+     <goals>  
+      <goal>java</goal>  
+     </goals>  
+     <configuration>  
+      <mainClass>Test.JiraTestng</mainClass>  
+      <arguments>  
+       <argument>arg0</argument>  
+       <argument>arg1</argument>  
+      </arguments>  
+     </configuration>  
+    </execution>  
+   </executions>  
+  </plugin>  
+
+    </plugins>
+  </build>
+  
+  
+  <reporting>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-report-plugin</artifactId>
+        <version>2.17</version>
+        <configuration>
+          <showSuccess>false</showSuccess>
+           <outputName>sabyaTest</outputName>
+        </configuration>
+      </plugin>
+    </plugins>
+  </reporting>
+  <dependencies>
+  	<dependency>
+  		<groupId>org.json</groupId>
+  		<artifactId>json</artifactId>
+  		<version>20140107</version>
+  	</dependency>
+  		<dependency>
+  		<groupId>org.seleniumhq.selenium</groupId>
+  		<artifactId>selenium-java</artifactId>
+  		<version>2.39.0</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.seleniumhq.selenium</groupId>
+  		<artifactId>selenium-firefox-driver</artifactId>
+  		<version>2.39.0</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.seleniumhq.selenium</groupId>
+  		<artifactId>selenium-chrome-driver</artifactId>
+  		<version>2.39.0</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.seleniumhq.selenium</groupId>
+  		<artifactId>selenium-ie-driver</artifactId>
+  		<version>2.39.0</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>com.google.inject</groupId>
+  		<artifactId>guice</artifactId>
+  		<version>4.0-beta</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.testng</groupId>
+  		<artifactId>testng</artifactId>
+  		<version>6.8.7</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.uncommons</groupId>
+  		<artifactId>reportng</artifactId>
+  		<version>1.1.4</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.codehaus.mojo</groupId>
+  		<artifactId>xslt-maven-plugin</artifactId>
+  		<version>1.0</version>
+  		<type>maven-plugin</type>
+  	</dependency>
+  	<dependency>
+	<groupId>net.sourceforge.jexcelapi</groupId>
+	<artifactId>jxl</artifactId>
+	<version>2.6.12</version>
+</dependency>
+<dependency>
+	<groupId>com.google.code.gson</groupId>
+	<artifactId>gson</artifactId>
+	<version>2.2.4</version>
+</dependency>
+<dependency>
+	<groupId>com.jcabi.incubator</groupId>
+	<artifactId>xembly</artifactId>
+	<version>0.17</version>
+</dependency>
+<dependency>
+	<groupId>net.sf.saxon</groupId>
+	<artifactId>saxon</artifactId>
+	<version>8.7</version>
+</dependency>
+<dependency>
+	<groupId>mx4j</groupId>
+	<artifactId>mx4j-tools</artifactId>
+	<version>3.0.1</version>
+</dependency>
+
+
+<dependency>
+	<groupId>org.apache.maven</groupId>
+	<artifactId>maven-plugin-api</artifactId>
+	<version>3.1.1</version>
+</dependency>
+<dependency>
+	<groupId>org.apache.poi</groupId>
+	<artifactId>poi</artifactId>
+	<version>3.10-FINAL</version>
+</dependency>
+<dependency>
+	<groupId>org.apache.poi</groupId>
+	<artifactId>poi-ooxml</artifactId>
+	<version>3.10-FINAL</version>
+</dependency>
+
+<dependency>
+         <groupId>excel-testng</groupId>
+         <artifactId>excel-testng</artifactId>
+         <scope>system</scope>
+         <version>0.7</version>
+         <systemPath>D:\sabya\lib\excel-testng-0.7.jar</systemPath>
+      </dependency>
+  	
+  </dependencies>
+</project>

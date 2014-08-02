@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><suite name="SabyaTest" verbose="2"><test name="Test0" preserve-order="true"><classes><class name="Test.ManageTopic"/></classes></test><test name="Test1" preserve-order="true"><classes><class name="Test.CreateTopic"/></classes></test></suite>

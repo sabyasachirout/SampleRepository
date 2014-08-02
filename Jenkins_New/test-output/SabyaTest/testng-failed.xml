@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="2" name="Failed suite [SabyaTest]">
+  <test name="Test0(failed)">
+    <classes>
+      <class name="Test.CreateTopic">
+        <methods>
+          <include name="after"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- Test.CreateTopic -->
+      <class name="Test.ManageTopic">
+        <methods>
+          <include name="ManageTopic"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- Test.ManageTopic -->
+    </classes>
+  </test> <!-- Test0(failed) -->
+</suite> <!-- Failed suite [SabyaTest] -->
