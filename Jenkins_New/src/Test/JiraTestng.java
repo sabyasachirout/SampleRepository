@@ -25,8 +25,8 @@ import org.w3c.dom.Element;
 
 public class JiraTestng {
 public static void main(String[] args) {
-		  int tcId=0;
-		   int rowincrementer=3;
+	     int tcId=0;
+	     int rowincrementer=3;
 		   
 		   
 		try {
