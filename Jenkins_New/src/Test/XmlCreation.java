@@ -25,7 +25,7 @@ public class XmlCreation {
 public static void main(String args[]){
 	try {
 		 
-		String suiteName="SabyaTest";
+		String suiteName="TapanTest";
 		String verbose="5";
 		DocumentBuilderFactory docFactory = DocumentBuilderFactory.newInstance();
 		DocumentBuilder docBuilder = docFactory.newDocumentBuilder();
